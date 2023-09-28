@@ -40,7 +40,7 @@ public class VRController : MonoBehaviour
 
     void FixedUpdate()
     {
-       // HandleCenter();
+       HandleCenter();
         CalculateMovement();
         CalculateOrientation();
 
